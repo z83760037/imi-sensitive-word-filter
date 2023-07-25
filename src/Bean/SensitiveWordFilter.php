@@ -1,6 +1,6 @@
 <?php
 
-namespace Ch\Imi\SensitiveWordFilter\Bean;
+namespace Phpch\Imi\SensitiveWordFilter\Bean;
 
 use Imi\Bean\Annotation\Bean;
 

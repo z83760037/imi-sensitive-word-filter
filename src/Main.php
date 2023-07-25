@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Ch\Imi\SensitiveWordFilter;
+namespace Phpch\Imi\SensitiveWordFilter;
 
 use Imi\Main\BaseMain;
 

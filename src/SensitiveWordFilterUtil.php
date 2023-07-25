@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Ch\Imi\SensitiveWordFilter;
+namespace Phpch\Imi\SensitiveWordFilter;
 
 use Imi\App;
-use Ch\Imi\SensitiveWordFilter\Bean\SensitiveWordFilter;
+use Phpch\Imi\SensitiveWordFilter\Bean\SensitiveWordFilter;
 use SplFileObject;
 
 
