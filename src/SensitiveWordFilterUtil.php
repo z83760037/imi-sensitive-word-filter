@@ -213,7 +213,7 @@ class SensitiveWordFilterUtil
 		if (empty($badWordList)) {
 			return $txt;
 		}
-		
+		$badWordList = array_unique($badWordList);
 		foreach ($badWordList as $badWord) {
 			$hasReplacedChar = $replaceChar;
 			if ($repeat) {
@@ -247,7 +247,7 @@ class SensitiveWordFilterUtil
 			}
 		}
 		
-		return array_unique($badWordList);
+		return $badWordList;
 	}
 	
 	/**
@@ -282,6 +282,8 @@ class SensitiveWordFilterUtil
 		if (empty($badWordList)) {
 			return $txt;
 		}
+		
+		$badWordList = array_unique($badWordList);
 		
 		foreach ($badWordList as $badWord) {
 			$hasReplacedChar = $sTag . $badWord . $eTag;
