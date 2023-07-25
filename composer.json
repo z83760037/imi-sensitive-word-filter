@@ -1,11 +1,11 @@
 {
-    "name": "ch/imi-sensitive-word-filter",
+    "name": "phpch/imi-sensitive-word-filter",
     "description": "基于IMI的dfa敏感词过滤",
     "type": "library",
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Ch\\Imi\\SensitiveWordFilter\\": "src/"
+            "Phpch\\Imi\\SensitiveWordFilter\\": "src/"
         }
     },
     "authors": [
