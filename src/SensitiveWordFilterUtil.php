@@ -23,7 +23,6 @@ class SensitiveWordFilterUtil
 			$type = ucfirst(self::$sensitiveWordFilter->getType());
 			$method = 'setTreeBy'.$type;
 			self::$method();
-			var_dump(1111);
 		}
 		return self::$words;
 	}
