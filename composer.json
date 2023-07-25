@@ -1,0 +1,23 @@
+{
+    "name": "ch/imi-sensitive-word-filter",
+    "description": "基于IMI的dfa敏感词过滤",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Ch\\ImiSensitiveWordFilter\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "ch",
+            "email": "765264087@qq.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=7.4",
+        "ext-swoole": ">=4.7.0",
+        "imiphp/imi": ">=2.0.0"
+    }
+}
