@@ -22,7 +22,7 @@ class SensitiveWordFilterUtil
 	/**
 	 * @var SensitiveWordFilter
 	 */
-	private static SensitiveWordFilter $_worker;
+	private static $_worker;
 	
 	/**
 	 * 静态方法解析执行。
