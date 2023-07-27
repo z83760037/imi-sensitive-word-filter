@@ -34,7 +34,7 @@ class HashMap
 				}
 				next($this->hashTable);
 			}
-			$this->hashTable = null;
+			$this->hashTable = [];
 			$this->hashTable = $temp_table;
 			return $tempValue;
 		}
@@ -54,7 +54,7 @@ class HashMap
 	/**
 	 * 将一个HashMap的值全部put到当前HashMap中
 	 *
-	 * @param  \DfaFilter\HashMap  $map
+	 * @param HashMap  $map
 	 */
 	public function putAll($map)
 	{
@@ -137,7 +137,7 @@ class HashMap
 	 */
 	public function removeAll()
 	{
-		$this->hashTable = null;
+		$this->hashTable = [];
 		return true;
 	}
 	

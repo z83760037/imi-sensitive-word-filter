@@ -18,9 +18,8 @@
 			'model' => \ImiApp\ApiServer\Model\EkSensitiveWord::class, // 模型名称
 			'field' => 'word', // 敏感词字段
 		],
-		'file' => [
-		
-		],// 文件列表
+		'file' => [],// 文件列表
+		'disturbList'=>['&','-'], // 干扰因子集合
 	],
 ```
 ### 检测是否含有敏感词
